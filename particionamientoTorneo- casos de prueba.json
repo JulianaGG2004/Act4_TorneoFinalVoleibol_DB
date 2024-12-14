@@ -1,0 +1,105 @@
+
+//CASO 1
+
+db.deportistas.insertMany([
+  { "nombre": "Juan", "apellidos": "Gomez Lopez", "edad": "21", "documento": 1000000001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Camilo", "apellidos": "Martinez", "edad": "21", "documento": 1000001001, "genero": "masculino", "equipo": "Team 2" },
+  { "nombre": "Andres", "apellidos": "Del Toro", "edad": "23", "documento": 1000002001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Camila", "apellidos": "Perez Garcia", "edad": "22", "documento": 1000003001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Maria", "apellidos": "Ruiz Garcia", "edad": "21", "documento": 1000004001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Janna", "apellidos": "Gutierrez", "edad": "22", "documento": 1000005001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "22", "documento": 1000006001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Lucia", "apellidos": "Martinez", "edad": "23", "documento": 1000007001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Raul", "apellidos": "Lopez", "edad": "24", "documento": 1000008001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Laura", "apellidos": "Fernandez", "edad": "21", "documento": 1000009001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Fernando", "apellidos": "Lopez", "edad": "28", "documento": 1000010001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Carlos", "apellidos": "Gonzalez", "edad": "22", "documento": 1000011001, "genero": "masculino", "equipo": "Team 4" },
+  { "nombre": "Yesenia", "apellidos": "Bohorquez", "edad": "21", "documento": 1000012001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Karla", "apellidos": "Venegas", "edad": "21", "documento": 1000013001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Marco", "apellidos": "Pava", "edad": "20", "documento": 1000014001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Alexis", "apellidos": "Godoy", "edad": "23", "documento": 1000015001, "genero": "masculino", "equipo": "Team 4" },
+  { "nombre": "Raul", "apellidos": "Martinez", "edad": "24", "documento": 1000016001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Sandra", "apellidos": "Lopez", "edad": "25", "documento": 1000017001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Luis", "apellidos": "Gomez", "edad": "26", "documento": 1000018001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Camila", "apellidos": "Sanchez", "edad": "22", "documento": 1000019001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Erik", "apellidos": "Gomez", "edad": "21", "documento": 1200001001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Alexis", "apellidos": "Godoy", "edad": "23", "documento": 1200002001, "genero": "masculino", "equipo": "Team 2" },
+  { "nombre": "Marco", "apellidos": "Pava", "edad": "20", "documento": 1200003001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Fernanda", "apellidos": "Pereira", "edad": "23", "documento": 1200004001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Karla", "apellidos": "Venegas", "edad": "21", "documento": 1200005001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Yesenia", "apellidos": "Bohorquez", "edad": "21", "documento": 1200006001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Carlos", "apellidos": "Martinez", "edad": "28", "documento": 1200007001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Laura", "apellidos": "Fernandez", "edad": "22", "documento": 1200008001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "30", "documento": 1200009001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Lucia", "apellidos": "Sanchez", "edad": "22", "documento": 1200010001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Raul", "apellidos": "Martinez", "edad": "24", "documento": 1200011001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "25", "documento": 1200012001, "genero": "masculino", "equipo": "Team 4" },
+  { "nombre": "Laura", "apellidos": "Gonzalez", "edad": "23", "documento": 1200013001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Maria", "apellidos": "Sanchez", "edad": "22", "documento": 1200014001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Lucia", "apellidos": "Rodriguez", "edad": "23", "documento": 1200015001, "genero": "femenino", "equipo": "Team 3" },
+  { "nombre": "Pedro", "apellidos": "Pacheco", "edad": "27", "documento": 1200016001, "genero": "masculino", "equipo": "Team 4" },
+  { "nombre": "Marcela", "apellidos": "Cordero", "edad": "22", "documento": 1200017001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Sofia", "apellidos": "Martinez", "edad": "24", "documento": 1200018001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Raul", "apellidos": "Lopez", "edad": "30", "documento": 1200019001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "22", "documento": 1300001001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Alexis", "apellidos": "Godoy", "edad": "23", "documento": 1300002001, "genero": "masculino", "equipo": "Team 2" },
+  { "nombre": "Marco", "apellidos": "Pava", "edad": "20", "documento": 1300003001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Fernanda", "apellidos": "Pereira", "edad": "23", "documento": 1300004001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Karla", "apellidos": "Venegas", "edad": "21", "documento": 1300005001, "genero": "femenino", "equipo": "Team 1" },
+  { "nombre": "Yesenia", "apellidos": "Bohorquez", "edad": "21", "documento": 1300006001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Carlos", "apellidos": "Martinez", "edad": "28", "documento": 1300007001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Laura", "apellidos": "Fernandez", "edad": "22", "documento": 1300008001, "genero": "femenino", "equipo": "Team 4" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "30", "documento": 1300009001, "genero": "masculino", "equipo": "Team 1" },
+  { "nombre": "Lucia", "apellidos": "Sanchez", "edad": "22", "documento": 1300010001, "genero": "femenino", "equipo": "Team 2" },
+  { "nombre": "Raul", "apellidos": "Martinez", "edad": "24", "documento": 1300011001, "genero": "masculino", "equipo": "Team 3" },
+  { "nombre": "Carlos", "apellidos": "Lopez", "edad": "25", "documento": 1300012001, "genero": "masculino", "equipo": "Team 4" },
+  { "nombre": "Laura", "apellidos": "Gonzalez", "edad": "23", "documento": 1300013001, "genero": "femenino", "equipo": "Team 1" }
+]);
+
+db.deportistas.countDocuments()
+
+sh.splitAt("db_TorneoFinalVoleibol.deportistas", { "documento": 1200000000 });
+sh.splitAt("db_TorneoFinalVoleibol.deportistas", { "documento": 1300000000 });
+
+sh.moveChunk("db_TorneoFinalVoleibol.deportistas", { "documento": 1000000000 }, "shard3_replset");
+sh.moveChunk("db_TorneoFinalVoleibol.deportistas", { "documento": 1200000000 }, "shard2_replset");
+sh.moveChunk("db_TorneoFinalVoleibol.deportistas", { "documento": 1300000000 }, "shard1_replset");
+//CONSOLA 1
+use db_TorneoFinalVoleibol
+db.deportistas.countDocuments()
+
+db.deportistas.insertMany([
+    { "nombre": "Carlos", "apellidos": "Lopez", "edad": "22", "documento": 13000010002, "genero": "masculino", "equipo": "Team 1" },
+    { "nombre": "Alexis", "apellidos": "Godoy", "edad": "23", "documento": 13000020002, "genero": "masculino", "equipo": "Team 2" },
+    { "nombre": "Marco", "apellidos": "Pava", "edad": "20", "documento": 13000030002, "genero": "masculino", "equipo": "Team 3" },
+    { "nombre": "Fernanda", "apellidos": "Pereira", "edad": "23", "documento": 13000040002, "genero": "femenino", "equipo": "Team 4" },
+    { "nombre": "Karla", "apellidos": "Venegas", "edad": "21", "documento": 13000050002, "genero": "femenino", "equipo": "Team 1" },
+    { "nombre": "Yesenia", "apellidos": "Bohorquez", "edad": "21", "documento": 13000060002, "genero": "femenino", "equipo": "Team 2" },
+    { "nombre": "Carlos", "apellidos": "Martinez", "edad": "28", "documento": 13000070002, "genero": "masculino", "equipo": "Team 3" },
+    { "nombre": "Laura", "apellidos": "Fernandez", "edad": "22", "documento": 13000080002, "genero": "femenino", "equipo": "Team 4" },
+    { "nombre": "Carlos", "apellidos": "Lopez", "edad": "30", "documento": 13000090002, "genero": "masculino", "equipo": "Team 1" },
+    { "nombre": "Lucia", "apellidos": "Sanchez", "edad": "22", "documento": 13000100002, "genero": "femenino", "equipo": "Team 2" },
+    { "nombre": "Raul", "apellidos": "Martinez", "edad": "24", "documento": 13000110002, "genero": "masculino", "equipo": "Team 3" },
+    { "nombre": "Carlos", "apellidos": "Lopez", "edad": "25", "documento": 13000120002, "genero": "masculino", "equipo": "Team 4" },
+    { "nombre": "Laura", "apellidos": "Gonzalez", "edad": "23", "documento": 13000130002, "genero": "femenino", "equipo": "Team 1" }
+  ]);
+
+
+//CONSOLA 2
+use db_TorneoFinalVoleibol
+db.deportistas.countDocuments()
+//CONSOLA 3
+use db_TorneoFinalVoleibol
+db.deportistas.countDocuments()
+
+//CASO 2
+db.deportistas.find()
+//consola 2
+db.deportistas.find({ "documento": { $gte: 1200018000, $lte: 1300000000 } });
+db.deportistas.find({"documento":1200002001})
+  
+//CASO 3
+mongosh.exe localhost:26117 
+use db_TorneoFinalVoleibol
+db.deportistas.countDocuments()
+db.deportistas.find()
